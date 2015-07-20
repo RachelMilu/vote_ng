@@ -1,0 +1,19 @@
+<ion-view view-title="{{pageTitle}}" class="enter">
+  <ion-content class="padding">
+    <h1>{{voteObj.subject}}</h1>
+    <p>{{voteObj.description}}</p>
+    <div ng-repeat = "option in voteObj.options">
+        <label>
+            <input value="{{option.id}}" class="radio_vote_option" type="radio" >
+            <span>{{option.text}}</span>
+        </label>
+    </div>
+    <button class="button button-positive center" ng-click="gotoResult()">
+      Vote
+    </button>
+
+    <br/>
+
+
+  </ion-content>
+</ion-view>

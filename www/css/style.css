@@ -1,0 +1,21 @@
+/* Empty. Add your own CSS if you like */
+
+
+.html {
+    font-size: 62.5%;
+    font-size: 1.3rem;
+}
+.button {
+    display: block;
+    width: 10rem;
+}
+.center {
+    margin: 0 auto;
+}
+.enter .input_enter {
+    width: 10rem;
+    margin: 30px auto;
+    border: 1px solid #666;
+    padding: 10px;
+    height: 33px;
+}
